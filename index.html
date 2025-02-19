@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="card">
+        <div class="card-header">
+            <h4>Payment for example</h4>
+        </div>
+        <div class="card-body">
+            <form>
+                <fieldset class="d-flex justify-content-between">
+                    <label for="num-card">Card #</label>
+                    <input type="number" name="num-card" placeholder="xxxxxxx" maxlength="16">
+
+                    <label for="cvc">CVC #</label>
+                    <input type="number" placeholder="0000" maxlength="4" name="cvc">
+
+                    <label for="amount">Amount $</label>
+                    <input type="number" placeholder="Amount" name="amount">
+                </fieldset>
+
+                <fieldset>
+                    <label>First Name
+                        <input type="text">
+                    </label>
+                    <label>Last Name
+                        <input type="text">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="City">City</label>
+                    <input type="text" name="city">
+
+                    <label for="state">State</label>
+                    <input type="search" name="state">
+
+                    <label for="post">Post</label>
+                    <input type="number" name="post">
+
+                    <label for="card">We acept:</label>
+                    <input type="radio" name="card"><label>Visa</label>
+                    <input type="radio" name="card"><label>MasterCard</label>
+                    <input type="radio" name="card"><label>AmericanExpress</label>
+                    <input type="radio" name="card"><label>Discover</label>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id=""></textarea>
+                </fieldset>
+            </form>
+        </div>
+        <div class="card-footer justify-content-between">
+            <input type="submit" class="btn btn-secondary" value="Cancel">
+            <input type="submit" class="btn btn-primary" value="Send">
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
